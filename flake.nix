@@ -10,7 +10,7 @@
         pkgs = import nixpkgs { inherit system; };
         aoclib = pkgs.buildGoModule {
           pname = "aoclib";
-          version = "v0.0.5";
+          version = "v0.0.6";
           src = builtins.path { path = ./.; name = "aoclib"; };
           vendorHash = "sha256-WVWxbWhEpON9Gy9FuZbFkosK6lDJZk2NbZ0RaNVeLoU=";
         };

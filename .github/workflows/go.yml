@@ -50,3 +50,12 @@ jobs:
 
     - name: Test stack
       run: go test -v github.com/glennhartmann/aoclib/stack
+
+    - name: Build grid/d4
+      run: go build -v github.com/glennhartmann/aoclib/grid/d4
+
+    - name: Build grid/d8
+      run: go build -v github.com/glennhartmann/aoclib/grid/d8
+
+    - name: Build must
+      run: go build -v github.com/glennhartmann/aoclib/must
